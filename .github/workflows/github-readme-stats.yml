@@ -12,6 +12,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: anuraghazra/github-readme-stats-action@v1
+      - uses: AlvaroAramayoChain/github-readme-stats-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
