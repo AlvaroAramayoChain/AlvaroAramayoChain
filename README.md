@@ -1,21 +1,26 @@
-<h1 align="center">¡Hola! Soy Alvaro Aramayo Chain 👋</h1>
+<h1 align="center">Hi, I'm [Your Name] 👋</h1>
 
 <p align="center">
-  Desarrollador web enfocado en <b>SaaS</b> y aplicaciones multi-tenant
+  Web developer focused on <b>websites</b> and <b>web applications</b>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20views&color=blue&style=flat" alt="profile views" />
 </p>
 
 ---
 
-### 🚀 Sobre mí
+### 🚀 About Me
 
-- 🔭 Actualmente construyendo un **SaaS de reservas/turnos** para negocios locales (peluquerías, consultorios, etc.), con arquitectura multi-tenant
-- 🌱 Aprendiendo sobre integraciones de notificaciones (WhatsApp, email) y buenas prácticas de backend
-- 💻 Me interesa el desarrollo full-stack y, en paralelo, el mundo de la seguridad ofensiva
-- 📫 Podés contactarme por los links de abajo
+- 💻 I build websites and web applications
+- 🔗 I work with WhatsApp and email integrations
+- 🛠️ I follow backend best practices
+- 🔐 Currently studying cybersecurity
+- 📫 Feel free to reach out through the links below
 
 ---
 
-### 🛠️ Tecnologías
+### 🛠️ Technologies
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,python,postgres,mysql,git,docker,linux" />
@@ -23,28 +28,28 @@
 
 ---
 
-### 📊 Estadísticas de GitHub
+### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TU-USUARIO&show_icons=true&theme=default&hide_title=false" alt="Estadísticas de GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=default&hide_title=false" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO&layout=compact" alt="Lenguajes más usados" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact" alt="Most Used Languages" />
 </p>
 
 ---
 
-### 🔗 Contacto
+### 🔗 Contact
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/TU-LINKEDIN" target="_blank">
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:tu-email@ejemplo.com">
+  <a href="mailto:alvaroaramayochain123@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://tu-portfolio.com" target="_blank">
+  <a href="https://your-portfolio.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
