@@ -4,10 +4,6 @@
   Web developer focused on <b>websites</b> and <b>web applications</b>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR-USERNAME&label=Profile%20views&color=blue&style=flat" alt="profile views" />
-</p>
-
 ---
 
 ### 🚀 About Me
