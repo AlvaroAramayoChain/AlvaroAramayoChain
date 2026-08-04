@@ -4,10 +4,6 @@
   Desarrollador web enfocado en <b>SaaS</b> y aplicaciones multi-tenant
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TU-USUARIO&label=Visitas&color=blue&style=flat" alt="visitas de perfil" />
-</p>
-
 ---
 
 ### 🚀 Sobre mí
