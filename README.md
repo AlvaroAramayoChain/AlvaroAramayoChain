@@ -119,8 +119,16 @@ I use **AI tools like Claude and Claude Code** in my daily workflow to ship fast
 ## 📊 GitHub stats
 
 <div align="center">
-  <img src="./profile/stats.svg" height="165" alt="GitHub stats" />
-  <img src="./profile/top-langs.svg" height="165" alt="Top languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/stats-light.svg" />
+    <img src="./profile/stats-light.svg" height="165" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile/top-langs-light.svg" />
+    <img src="./profile/top-langs-light.svg" height="165" alt="Top languages" />
+  </picture>
 </div>
 
 ---
