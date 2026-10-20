@@ -142,7 +142,7 @@ Tell me what your business does — I'll tell you what it needs.
 <a href="https://desarrollocardon.com"><img src="https://img.shields.io/badge/Website-desarrollocardon.com-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 <a href="https://alvaroaramayochain.github.io/"><img src="https://img.shields.io/badge/Portfolio-GitHub_Pages-1B7F79?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 <a href="https://github.com/AlvaroAramayoChain"><img src="https://img.shields.io/badge/GitHub-AlvaroAramayoChain-22313F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="mailto:contacto@desarrollocardon.com"><img src="https://img.shields.io/badge/Email-contacto@desarrollocardon.com-C2593A?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+<a href="mailto:alvaroaramayochain123@gmail.com"><img src="https://img.shields.io/badge/Email-alvaroaramayochain123@gmail.com-C2593A?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
 
 </div>
 
