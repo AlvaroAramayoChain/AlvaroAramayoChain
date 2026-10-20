@@ -2,8 +2,11 @@ name: Update README cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # se actualiza una vez al día
-  workflow_dispatch:        # permite correrlo manualmente también
+    - cron: "0 0 * * *" # se actualiza una vez al día
+  workflow_dispatch: # permite correrlo manualmente también
+  push:
+    paths:
+      - ".github/workflows/github-readme-stats.yml"
 
 jobs:
   build:
@@ -13,20 +16,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate stats card
+      - name: Stats card (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&bg_color=0D1117&title_color=3FB37F&icon_color=E9A23B&text_color=C9D1D9&ring_color=3FB37F&border_color=30363D&border_radius=10
+          path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&bg_color=FFFFFF&title_color=2D6A4F&icon_color=B7791F&text_color=24292F&ring_color=2D6A4F&border_color=D0D7DE&border_radius=10
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact
-          path: profile/top-langs.svg
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=0D1117&title_color=3FB37F&text_color=C9D1D9&border_color=30363D&border_radius=10
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=FFFFFF&title_color=2D6A4F&text_color=24292F&border_color=D0D7DE&border_radius=10
+          path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit changes
